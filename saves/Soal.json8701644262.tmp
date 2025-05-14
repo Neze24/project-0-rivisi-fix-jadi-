@@ -1,0 +1,83 @@
+{
+  "Ez": [
+	{
+	  "question": "Apa warna matahari saat cuaca cerah?",
+	  "choices": ["kuning", "biru", "merah"],
+	  "answer": "kuning"
+	},
+	{
+	  "question": "Berapa jumlah kaki seekor laba-laba?",
+	  "choices": ["6", "8", "10"],
+	  "answer": "8"
+	},
+	{
+	  "question": "Berapakah 5 ditambah 3?",
+	  "choices": ["7", "8", "9"],
+	  "answer": "8"
+	},
+	{
+	  "question": "Apa nama planet tempat kita tinggal?",
+	  "choices": ["Mars", "Bumi", "Venus"],
+	  "answer": "Bumi"
+	},
+	{
+	  "question": "Apa yang dihasilkan oleh lebah?",
+	  "choices": ["madu", "susu", "gula"],
+	  "answer": "madu"
+	}
+  ],
+  "Normal": [
+	{
+	  "question": "Apa ibu kota negara Jepang?",
+	  "choices": ["Tokyo", "Kyoto", "Osaka"],
+	  "answer": "Tokyo"
+	},
+	{
+	  "question": "Berapa jumlah hari dalam satu tahun kabisat?",
+	  "choices": ["365", "366", "364"],
+	  "answer": "366"
+	},
+	{
+	  "question": "Gas apa yang diserap oleh tumbuhan?",
+	  "choices": ["oksigen", "karbon dioksida", "nitrogen"],
+	  "answer": "karbon dioksida"
+	},
+	{
+	  "question": "Siapa pelukis lukisan Mona Lisa?",
+	  "choices": ["Michelangelo", "Leonardo da Vinci", "Raphael"],
+	  "answer": "Leonardo da Vinci"
+	},
+	{
+	  "question": "Apa material alami terkeras di dunia?",
+	  "choices": ["besi", "berlian", "emas"],
+	  "answer": "berlian"
+	}
+  ],
+  "Hard": [
+	{
+	  "question": "Apa simbol kimia untuk emas?",
+	  "choices": ["Au", "Ag", "Fe"],
+	  "answer": "Au"
+	},
+	{
+	  "question": "Filsuf Yunani mana yang mengajar Alexander Agung?",
+	  "choices": ["Socrates", "Aristoteles", "Plato"],
+	  "answer": "Aristoteles"
+	},
+	{
+	  "question": "Berapa jumlah tulang dalam tubuh manusia dewasa?",
+	  "choices": ["206", "210", "201"],
+	  "answer": "206"
+	},
+	{
+	  "question": "Planet keberapa Bumi dari Matahari?",
+	  "choices": ["kedua", "ketiga", "keempat"],
+	  "answer": "ketiga"
+	},
+	{
+	  "question": "Pada tahun berapa kapal Titanic tenggelam?",
+	  "choices": ["1905", "1912", "1920"],
+	  "answer": "1912"
+	}
+  ]
+}

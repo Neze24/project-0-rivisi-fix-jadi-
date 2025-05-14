@@ -1,0 +1,37 @@
+[gd_scene load_steps=4 format=3 uid="uid://bnb3d8mh6utmq"]
+
+[ext_resource type="PackedScene" uid="uid://bblwlkvw8ju6g" path="res://player.tscn" id="1_osonj"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_cdybh"]
+
+[sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_y5ove"]
+normal = Vector2(1, 0)
+distance = -48.0
+
+[node name="bg" type="Node2D"]
+
+[node name="player" parent="." instance=ExtResource("1_osonj")]
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+zoom = Vector2(2, 2)
+
+[node name="ground" type="StaticBody2D" parent="."]
+
+[node name="darat" type="CollisionShape2D" parent="ground"]
+position = Vector2(-88, 128)
+shape = SubResource("WorldBoundaryShape2D_cdybh")
+
+[node name="ColorRect" type="ColorRect" parent="ground/darat"]
+offset_left = -200.0
+offset_right = 376.0
+offset_bottom = 40.0
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="ground"]
+position = Vector2(-240, 8)
+shape = SubResource("WorldBoundaryShape2D_y5ove")
+
+[node name="ColorRect" type="ColorRect" parent="ground/CollisionShape2D2"]
+offset_left = -96.0
+offset_top = -168.0
+offset_right = -48.0
+offset_bottom = 120.0

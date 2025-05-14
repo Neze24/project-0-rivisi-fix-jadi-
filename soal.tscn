@@ -1,0 +1,181 @@
+[gd_scene load_steps=17 format=3 uid="uid://doeo33ojplbwn"]
+
+[ext_resource type="Script" uid="uid://dvoba3dpkboe" path="res://soal.gd" id="1_sn1g8"]
+[ext_resource type="Texture2D" uid="uid://ldcl0mywwndj" path="res://assets/Animated-Monitors-Sheet(for Soal).png" id="2_1gods"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_s4frh"]
+line_spacing = 3.045
+font_size = 48
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s4frh"]
+atlas = ExtResource("2_1gods")
+region = Rect2(48, 32, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_xg28g"]
+atlas = ExtResource("2_1gods")
+region = Rect2(192, 32, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ljny7"]
+atlas = ExtResource("2_1gods")
+region = Rect2(336, 32, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vxlvv"]
+atlas = ExtResource("2_1gods")
+region = Rect2(48, 128, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_c4jv4"]
+atlas = ExtResource("2_1gods")
+region = Rect2(192, 128, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_glnx8"]
+atlas = ExtResource("2_1gods")
+region = Rect2(336, 128, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_k81t6"]
+atlas = ExtResource("2_1gods")
+region = Rect2(48, 224, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qi76v"]
+atlas = ExtResource("2_1gods")
+region = Rect2(192, 224, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7twur"]
+atlas = ExtResource("2_1gods")
+region = Rect2(336, 224, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_53okx"]
+atlas = ExtResource("2_1gods")
+region = Rect2(48, 320, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3btqj"]
+atlas = ExtResource("2_1gods")
+region = Rect2(192, 320, 48, 32)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_4xuu1"]
+atlas = ExtResource("2_1gods")
+region = Rect2(336, 320, 48, 32)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qlkfq"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_s4frh")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_xg28g")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ljny7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vxlvv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_c4jv4")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_glnx8")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_k81t6")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qi76v")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7twur")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_53okx")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3btqj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_4xuu1")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[node name="Soal" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_sn1g8")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -439.0
+offset_top = -228.0
+offset_right = 439.0
+offset_bottom = 228.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button2" type="Button" parent="ColorRect"]
+layout_mode = 0
+offset_left = 19.0
+offset_top = 392.0
+offset_right = 144.0
+offset_bottom = 435.0
+text = "back
+"
+
+[node name="question" type="Label" parent="ColorRect"]
+modulate = Color(0, 0, 0, 1)
+layout_mode = 0
+offset_left = 57.0
+offset_top = 47.0
+offset_right = 840.0
+offset_bottom = 334.0
+text = "
+"
+label_settings = SubResource("LabelSettings_s4frh")
+autowrap_mode = 3
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+show_behind_parent = true
+texture_filter = 1
+position = Vector2(685.5, 364)
+scale = Vector2(33.7292, 35.5)
+sprite_frames = SubResource("SpriteFrames_qlkfq")
+frame_progress = 0.235442
+
+[node name="choice1" type="Button" parent="."]
+layout_mode = 0
+offset_left = 301.0
+offset_top = 356.0
+offset_right = 856.0
+offset_bottom = 398.0
+alignment = 0
+
+[node name="choice2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 412.0
+offset_right = 855.0
+offset_bottom = 454.0
+alignment = 0
+
+[node name="choice3" type="Button" parent="."]
+layout_mode = 0
+offset_left = 299.0
+offset_top = 469.0
+offset_right = 854.0
+offset_bottom = 511.0
+alignment = 0
+
+[connection signal="pressed" from="ColorRect/Button2" to="." method="_on_button_2_pressed"]
+[connection signal="pressed" from="choice1" to="." method="_on_choice_1_pressed"]
+[connection signal="pressed" from="choice2" to="." method="_on_choice_2_pressed"]
+[connection signal="pressed" from="choice3" to="." method="_on_choice_3_pressed"]

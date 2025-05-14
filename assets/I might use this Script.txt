@@ -1,0 +1,19 @@
+
+#attack handler
+if plyr_on_range and not attacking and not damagecd and alive and Global.player_alive and attack_ava: 
+		attack_ava = false
+		velocity.x = 0
+		attacking = true
+		if animation.flip_h:
+			attack4.visible = true
+			attack4.play("default")
+		else:
+			attack.visible = true
+			attack.play("default")
+		animation.visible = false
+
+	if not attack_ava:
+		attack_timer += delta
+		if attack_timer >= atk_cd:
+			attack_ava = true
+			attack_timer = 0

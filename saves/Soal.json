@@ -1,0 +1,309 @@
+{
+	"Ez": [
+	  {
+		"question": "Apa warna matahari saat cuaca cerah?",
+		"choices": ["kuning", "biru", "merah"],
+		"answer": "kuning"
+	  },
+	  {
+		"question": "Berapa jumlah kaki seekor laba-laba?",
+		"choices": ["6", "8", "10"],
+		"answer": "8"
+	  },
+	  {
+		"question": "Berapakah 5 ditambah 3?",
+		"choices": ["7", "8", "9"],
+		"answer": "8"
+	  },
+	  {
+		"question": "Apa nama planet tempat kita tinggal?",
+		"choices": ["Mars", "Bumi", "Venus"],
+		"answer": "Bumi"
+	  },
+	  {
+		"question": "Apa yang dihasilkan oleh lebah?",
+		"choices": ["madu", "susu", "gula"],
+		"answer": "madu"
+	  },
+	  {
+		"question": "Berapa hari dalam seminggu?",
+		"choices": ["5", "6", "7"],
+		"answer": "7"
+	  },
+	  {
+		"question": "Hewan apa yang dikenal sebagai raja hutan?",
+		"choices": ["harimau", "singa", "gajah"],
+		"answer": "singa"
+	  },
+	  {
+		"question": "Air membeku pada suhu berapa derajat Celsius?",
+		"choices": ["0", "10", "100"],
+		"answer": "0"
+	  },
+	  {
+		"question": "Buah apa yang berwarna merah dan bulat?",
+		"choices": ["apel", "pisang", "semangka"],
+		"answer": "apel"
+	  },
+	  {
+		"question": "Apa lawan kata dari besar?",
+		"choices": ["tinggi", "kecil", "panjang"],
+		"answer": "kecil"
+	  },
+	  {
+		"question": "Binatang apa yang suka wortel?",
+		"choices": ["kucing", "kelinci", "monyet"],
+		"answer": "kelinci"
+	  },
+	  {
+		"question": "Berapa hasil dari 2 x 3?",
+		"choices": ["5", "6", "7"],
+		"answer": "6"
+	  },
+	  {
+		"question": "Apa warna daun yang sehat?",
+		"choices": ["kuning", "hijau", "cokelat"],
+		"answer": "hijau"
+	  },
+	  {
+		"question": "Apa lawan kata dari siang?",
+		"choices": ["malam", "pagi", "sore"],
+		"answer": "malam"
+	  },
+	  {
+		"question": "Apa yang kita hirup untuk bernapas?",
+		"choices": ["karbon dioksida", "udara", "air"],
+		"answer": "udara"
+	  },
+	  {
+		"question": "Buah apa yang punya duri di luar dan manis di dalam?",
+		"choices": ["nanas", "apel", "pisang"],
+		"answer": "nanas"
+	  },
+	  {
+		"question": "Kendaraan apa yang berjalan di rel?",
+		"choices": ["mobil", "kereta", "pesawat"],
+		"answer": "kereta"
+	  },
+	  {
+		"question": "Apa warna langit saat cerah?",
+		"choices": ["abu-abu", "biru", "hijau"],
+		"answer": "biru"
+	  },
+	  {
+		"question": "Angka berapakah setelah 9?",
+		"choices": ["10", "11", "8"],
+		"answer": "10"
+	  },
+	  {
+		"question": "Binatang apa yang bisa terbang?",
+		"choices": ["ikan", "burung", "gajah"],
+		"answer": "burung"
+	  }
+	],
+	"Normal": [
+	  {
+		"question": "Apa ibu kota negara Jepang?",
+		"choices": ["Tokyo", "Kyoto", "Osaka"],
+		"answer": "Tokyo"
+	  },
+	  {
+		"question": "Berapa jumlah hari dalam satu tahun kabisat?",
+		"choices": ["365", "366", "364"],
+		"answer": "366"
+	  },
+	  {
+		"question": "Gas apa yang diserap oleh tumbuhan?",
+		"choices": ["oksigen", "karbon dioksida", "nitrogen"],
+		"answer": "karbon dioksida"
+	  },
+	  {
+		"question": "Siapa pelukis lukisan Mona Lisa?",
+		"choices": ["Michelangelo", "Leonardo da Vinci", "Raphael"],
+		"answer": "Leonardo da Vinci"
+	  },
+	  {
+		"question": "Apa material alami terkeras di dunia?",
+		"choices": ["besi", "berlian", "emas"],
+		"answer": "berlian"
+	  },
+	  {
+		"question": "Apa ibukota Indonesia?",
+		"choices": ["Jakarta", "Bandung", "Surabaya"],
+		"answer": "Jakarta"
+	  },
+	  {
+		"question": "Berapa jumlah pulau di Indonesia (perkiraan)?",
+		"choices": ["17000", "10000", "5000"],
+		"answer": "17000"
+	  },
+	  {
+		"question": "Siapa presiden pertama Indonesia?",
+		"choices": ["Soekarno", "Soeharto", "Jokowi"],
+		"answer": "Soekarno"
+	  },
+	  {
+		"question": "Apa nama gunung tertinggi di Indonesia?",
+		"choices": ["Merapi", "Semeru", "Puncak Jaya"],
+		"answer": "Puncak Jaya"
+	  },
+	  {
+		"question": "Apa nama samudra terbesar di dunia?",
+		"choices": ["Atlantik", "Pasifik", "Hindia"],
+		"answer": "Pasifik"
+	  },
+	  {
+		"question": "Siapa penemu bola lampu?",
+		"choices": ["Einstein", "Edison", "Newton"],
+		"answer": "Edison"
+	  },
+	  {
+		"question": "Planet mana yang punya cincin besar?",
+		"choices": ["Jupiter", "Saturnus", "Neptunus"],
+		"answer": "Saturnus"
+	  },
+	  {
+		"question": "Apa nama benua terbesar?",
+		"choices": ["Afrika", "Asia", "Eropa"],
+		"answer": "Asia"
+	  },
+	  {
+		"question": "Binatang apa yang disebut sebagai mamalia terbesar?",
+		"choices": ["gajah", "paus biru", "hiu putih"],
+		"answer": "paus biru"
+	  },
+	  {
+		"question": "Negara mana yang terkenal dengan Menara Eiffel?",
+		"choices": ["Italia", "Perancis", "Spanyol"],
+		"answer": "Perancis"
+	  },
+	  {
+		"question": "Apa alat musik tradisional dari Jawa Barat?",
+		"choices": ["angklung", "gamelan", "saron"],
+		"answer": "angklung"
+	  },
+	  {
+		"question": "Bahasa resmi di Brazil?",
+		"choices": ["Spanyol", "Portugis", "Inggris"],
+		"answer": "Portugis"
+	  },
+	  {
+		"question": "Apa nama laut di sebelah utara Indonesia?",
+		"choices": ["Laut Jawa", "Laut Cina Selatan", "Laut Timor"],
+		"answer": "Laut Cina Selatan"
+	  },
+	  {
+		"question": "Apa satuan arus listrik?",
+		"choices": ["Volt", "Ohm", "Ampere"],
+		"answer": "Ampere"
+	  },
+	  {
+		"question": "Negara mana yang dikenal dengan piramida?",
+		"choices": ["Yunani", "Mesir", "India"],
+		"answer": "Mesir"
+	  }
+	],
+	"Hard": [
+	  {
+		"question": "Apa simbol kimia untuk emas?",
+		"choices": ["Au", "Ag", "Fe"],
+		"answer": "Au"
+	  },
+	  {
+		"question": "Filsuf Yunani mana yang mengajar Alexander Agung?",
+		"choices": ["Socrates", "Aristoteles", "Plato"],
+		"answer": "Aristoteles"
+	  },
+	  {
+		"question": "Berapa jumlah tulang dalam tubuh manusia dewasa?",
+		"choices": ["206", "210", "201"],
+		"answer": "206"
+	  },
+	  {
+		"question": "Planet keberapa Bumi dari Matahari?",
+		"choices": ["kedua", "ketiga", "keempat"],
+		"answer": "ketiga"
+	  },
+	  {
+		"question": "Pada tahun berapa kapal Titanic tenggelam?",
+		"choices": ["1905", "1912", "1920"],
+		"answer": "1912"
+	  },
+	  {
+		"question": "Siapa ilmuwan yang menemukan hukum gravitasi?",
+		"choices": ["Einstein", "Newton", "Galileo"],
+		"answer": "Newton"
+	  },
+	  {
+		"question": "Apa bahasa resmi di Kanada selain Inggris?",
+		"choices": ["Spanyol", "Prancis", "Jerman"],
+		"answer": "Prancis"
+	  },
+	  {
+		"question": "Siapa penulis 'Romeo and Juliet'?",
+		"choices": ["Chaucer", "Shakespeare", "Dickens"],
+		"answer": "Shakespeare"
+	  },
+	  {
+		"question": "Apa nama teori Einstein yang terkenal?",
+		"choices": ["Relativitas", "Gravitasi", "Evolusi"],
+		"answer": "Relativitas"
+	  },
+	  {
+		"question": "Apa nama unsur dengan simbol 'Pb'?",
+		"choices": ["Timah", "Timbal", "Perak"],
+		"answer": "Timbal"
+	  },
+	  {
+		"question": "Siapa penemu telepon?",
+		"choices": ["Bell", "Edison", "Tesla"],
+		"answer": "Bell"
+	  },
+	  {
+		"question": "Apa nama perang dunia yang terjadi antara 1939–1945?",
+		"choices": ["Perang Dunia I", "Perang Dunia II", "Perang Dingin"],
+		"answer": "Perang Dunia II"
+	  },
+	  {
+		"question": "Dimana Machu Picchu berada?",
+		"choices": ["Peru", "Meksiko", "Brazil"],
+		"answer": "Peru"
+	  },
+	  {
+		"question": "Berapa sisi dari segi delapan?",
+		"choices": ["6", "8", "10"],
+		"answer": "8"
+	  },
+	  {
+		"question": "Apa nama galaksi kita?",
+		"choices": ["Andromeda", "Milky Way", "Nebula"],
+		"answer": "Milky Way"
+	  },
+	  {
+		"question": "Apa ibukota Islandia?",
+		"choices": ["Oslo", "Reykjavik", "Stockholm"],
+		"answer": "Reykjavik"
+	  },
+	  {
+		"question": "Apa nama ilmiah air?",
+		"choices": ["CO2", "H2O", "O2"],
+		"answer": "H2O"
+	  },
+	  {
+		"question": "Berapa nilai dari π (pi) hingga dua desimal?",
+		"choices": ["3.14", "3.12", "3.16"],
+		"answer": "3.14"
+	  },
+	  {
+		"question": "Negara mana yang memiliki populasi terbesar?",
+		"choices": ["India", "Amerika Serikat", "Cina"],
+		"answer": "Cina"
+	  },
+	  {
+		"question": "Apa nama benua terkecil di dunia?",
+		"choices": ["Australia", "Eropa", "Antartika"],
+		"answer": "Australia"
+	  }
+	]
+  }
+  

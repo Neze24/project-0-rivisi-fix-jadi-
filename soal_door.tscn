@@ -1,0 +1,31 @@
+[gd_scene load_steps=4 format=3 uid="uid://gmclr7qwbsm2"]
+
+[ext_resource type="Script" uid="uid://c6rrvovfk2ifh" path="res://soal_door.gd" id="1_l3hhg"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tw5ax"]
+size = Vector2(18, 20)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_76us3"]
+size = Vector2(4, 64)
+
+[node name="soal_door" type="Node2D"]
+script = ExtResource("1_l3hhg")
+
+[node name="ColorRect" type="ColorRect" parent="."]
+offset_top = -24.0
+offset_right = 4.0
+offset_bottom = 40.0
+color = Color(0.349065, 0.349065, 0.349065, 1)
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(9, 30)
+shape = SubResource("RectangleShape2D_tw5ax")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+position = Vector2(2, 20)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(0, -12)
+shape = SubResource("RectangleShape2D_76us3")

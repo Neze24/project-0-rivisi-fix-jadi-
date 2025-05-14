@@ -1,0 +1,54 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkgip2qjosima"]
+
+[ext_resource type="Script" uid="uid://relsqyqiebr3" path="res://script/stage_select.gd" id="1_d2q2k"]
+
+[node name="StageSelect" type="Control"]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_d2q2k")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -116.895
+offset_top = -67.0
+offset_right = 116.895
+offset_bottom = 67.0
+grow_horizontal = 2
+grow_vertical = 2
+alignment = 1
+
+[node name="Stage 1" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+text = "STAGE 1
+"
+
+[node name="Stage 2" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+text = "STAGE 2 "
+
+[node name="Stage  3" type="Button" parent="HBoxContainer"]
+layout_mode = 2
+text = "STAGE 3"
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+offset_right = 172.0
+offset_bottom = 57.0
+text = "Back
+"
+
+[connection signal="pressed" from="HBoxContainer/Stage 1" to="." method="_on_stage_1_pressed"]
+[connection signal="pressed" from="HBoxContainer/Stage 2" to="." method="_on_stage_2_pressed"]
+[connection signal="pressed" from="HBoxContainer/Stage  3" to="." method="_on_stage__3_pressed"]
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

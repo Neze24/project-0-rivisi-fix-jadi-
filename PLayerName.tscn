@@ -1,0 +1,81 @@
+[gd_scene load_steps=3 format=3 uid="uid://k51e4rhxausc"]
+
+[ext_resource type="Script" uid="uid://b77llgtlb88jh" path="res://script/p_layer_name.gd" id="1_ithki"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_y4k17"]
+font_size = 23
+
+[node name="Control" type="Control"]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_ithki")
+
+[node name="Input" type="TextEdit" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -134.5
+offset_top = -37.5
+offset_right = 134.5
+offset_bottom = 37.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 559.0
+offset_top = 295.0
+offset_right = 807.0
+offset_bottom = 318.0
+text = "Masukan Nama Anda"
+label_settings = SubResource("LabelSettings_y4k17")
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -94.5
+offset_top = 82.0
+offset_right = 96.5
+offset_bottom = 136.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Selesai"
+
+[node name="Button2" type="Button" parent="."]
+process_mode = 3
+layout_mode = 1
+offset_right = 203.0
+offset_bottom = 55.0
+text = "Back"
+
+[node name="Label2" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -93.0
+offset_top = 45.5
+offset_right = 93.0
+offset_bottom = 68.5
+grow_horizontal = 2
+grow_vertical = 2
+text = "Nama Player Belum ada"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Button2" to="." method="_on_button_2_pressed"]
